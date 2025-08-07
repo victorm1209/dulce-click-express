@@ -32,11 +32,16 @@ const CartDrawer = ({
       message += `• ${item.product.name} x${item.quantity} - ${(item.product.price * item.quantity).toFixed(2)} REF\n`;
     });
     
-    message += `\n💰 *Total: ${total.toFixed(2)} REF*\n\n`;
+    message += `\n*Total: ${total.toFixed(2)} REF*\n\n`;
+    message += `Ubicación de entrega:\n`;
+    message += `Nombre y apellido:\n\n`;
     message += `Gracias por su atención. Espero su confirmación.`;
 
+
+
+
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/584121234567?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/584123988854?text=${encodedMessage}`;
     
     window.open(whatsappUrl, '_blank');
   };
@@ -126,26 +131,26 @@ const CartDrawer = ({
               </div>
             )}
           </div>
-
-          {cartItems.length > 0 && (
-            <div className="sticky bottom-0 bg-background border-t border-border pt-4 mt-4 space-y-3">
-              <div className="flex justify-between items-center text-lg font-semibold">
-                <span>Total:</span>
-                <span className="gradient-primary bg-clip-text text-transparent">
-                  {total.toFixed(2)} REF
-                </span>
-              </div>
-              
-              <Button
-                onClick={handleWhatsAppOrder}
-                className="w-full gradient-primary border-0 hover:shadow-soft transition-all duration-200 text-lg py-6"
-                size="lg"
-              >
-                <MessageCircle className="h-5 w-5 mr-2" />
-                Realizar Pedido por WhatsApp
-              </Button>
+          
+        {cartItems.length > 0 && (
+          <div className="sticky bottom-0 bg-background border-t border-border px-4 py-4 md:px-6 md:py-6 space-y-4">
+            <div className="flex justify-between items-center text-lg font-semibold">
+              <span>Total:</span>
+              <span className="gradient-primary bg-clip-text text-transparent">
+                {total.toFixed(2)} REF
+              </span>
             </div>
-          )}
+
+            <Button
+              onClick={handleWhatsAppOrder}
+              className="w-full gradient-primary border-0 hover:shadow-soft transition-all duration-200 text-lg py-4 md:py-5 rounded-lg"
+              size="lg"
+            >
+              <MessageCircle className="h-5 w-5 mr-2" />
+              Realizar Pedido por WhatsApp
+            </Button>
+          </div>
+        )}
         </div>
       </SheetContent>
     </Sheet>

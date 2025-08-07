@@ -90,18 +90,20 @@ const Index = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             ¡Bienvenido a{' '}
             <span className="gradient-primary bg-clip-text text-transparent">
-              Dulce Express
+              Helados Ya
             </span>
             !
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Los mejores helados, snacks, dulces y pasapalos para endulzar tu día
           </p>
-          <div className="flex flex-wrap justify-center gap-2">
-            <Badge variant="secondary" className="text-lg px-4 py-2">🍦 Helados Artesanales</Badge>
+          {/* <div className="flex flex-wrap justify-center gap-2">
+            <Badge variant="secondary" className="text-lg px-4 py-2">🍦 Helados</Badge>
             <Badge variant="secondary" className="text-lg px-4 py-2">🍿 Snacks Premium</Badge>
             <Badge variant="secondary" className="text-lg px-4 py-2">🍭 Dulces Exclusivos</Badge>
-          </div>
+            <Badge variant="secondary" className="text-lg px-4 py-2">🍦 Pasapalos</Badge>
+
+          </div> */}
         </div>
       </section>
 

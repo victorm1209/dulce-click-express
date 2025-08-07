@@ -28,7 +28,7 @@ const BankingInfo = () => {
                   <Phone className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">Teléfono</p>
-                    <p className="text-sm text-muted-foreground">+58 412-123-4567</p>
+                    <p className="text-sm text-muted-foreground">+58 412-3988176</p>
                   </div>
                 </div>
                 
@@ -47,8 +47,8 @@ const BankingInfo = () => {
                   <p className="font-medium">Número de Cuenta</p>
                 </div>
                 <p className="text-lg font-mono">0102-1234-5678-9012-3456</p>
-                <p className="text-sm text-muted-foreground mt-1">María González</p>
-                <p className="text-sm text-muted-foreground">V-12.345.678</p>
+                <p className="text-sm text-muted-foreground mt-1">Giovany Díaz</p>
+                <p className="text-sm text-muted-foreground">V-5.590.41</p>
               </div>
 
               <div className="flex items-start gap-3 p-4 rounded-lg bg-amber-50 border border-amber-200 dark:bg-amber-950 dark:border-amber-800">

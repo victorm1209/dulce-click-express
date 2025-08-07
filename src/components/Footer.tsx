@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid gap-8 md:grid-cols-3">
           <div>
             <h3 className="font-semibold text-lg mb-3 gradient-primary bg-clip-text text-transparent">
-              Dulce Express
+              Helados Ya
             </h3>
             <p className="text-sm text-muted-foreground mb-4">
               Los mejores helados, snacks y dulces para endulzar tu día. 
@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                +58 412-123-4567
+                +58 412-3988176
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
@@ -38,11 +38,11 @@ const Footer = () => {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4" />
-                Lun - Vie: 8:00 AM - 6:00 PM
+                Lun - Viernes: 7:00 AM - 11:00 PM
               </div>
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4" />
-                Sáb - Dom: 9:00 AM - 5:00 PM
+                Sáb - Dom: 8:00 AM - 11:00 PM
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="border-t border-border/40 mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Dulce Express. Todos los derechos reservados.
+            © 2025 Helados Ya. Todos los derechos reservados.
           </p>
         </div>
       </div>

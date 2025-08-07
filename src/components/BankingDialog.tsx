@@ -30,7 +30,7 @@ const BankingDialog = () => {
               <Phone className="h-5 w-5 text-primary" />
               <div>
                 <p className="font-medium">Teléfono</p>
-                <p className="text-sm text-muted-foreground">+58 412-123-4567</p>
+                <p className="text-sm text-muted-foreground">+58 412-3988176</p>
               </div>
             </div>
             
@@ -38,7 +38,7 @@ const BankingDialog = () => {
               <Building2 className="h-5 w-5 text-primary" />
               <div>
                 <p className="font-medium">Banco</p>
-                <p className="text-sm text-muted-foreground">Banco de Venezuela</p>
+                <p className="text-sm text-muted-foreground">(0134) Banesco</p>
               </div>
             </div>
           </div>
@@ -46,11 +46,11 @@ const BankingDialog = () => {
           <div className="p-4 rounded-lg bg-muted/50">
             <div className="flex items-center gap-3 mb-2">
               <CreditCard className="h-5 w-5 text-primary" />
-              <p className="font-medium">Número de Cuenta</p>
+              <p className="font-medium">Cédula de identidad</p>
             </div>
-            <p className="text-lg font-mono">0102-1234-5678-9012-3456</p>
-            <p className="text-sm text-muted-foreground mt-1">María González</p>
-            <p className="text-sm text-muted-foreground">V-12.345.678</p>
+            {/* <p className="text-lg font-mono">0102-1234-5678-9012-3456</p> */}
+            <p className="text-sm text-muted-foreground mt-1">Giovany Díaz</p>
+            <p className="text-sm text-muted-foreground">V-5.590.413</p>
           </div>
 
           <div className="flex items-start gap-3 p-4 rounded-lg bg-amber-50 border border-amber-200 dark:bg-amber-950 dark:border-amber-800">
@@ -60,7 +60,7 @@ const BankingDialog = () => {
                 Importante
               </p>
               <p className="text-sm text-amber-700 dark:text-amber-300">
-                Los pagos se deben realizar según la tasa oficial del BCV.
+                Los pagos se deben realizar según la tasa oficial del Dólar BCV.
               </p>
             </div>
           </div>
