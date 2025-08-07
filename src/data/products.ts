@@ -16,7 +16,7 @@ export const products: Product[] = [
   {
     id: '2',
     name: '1/2 litro de Sabores Clásico',
-    description: 'Medio litro de nuestros sabores clásicos favoritos, como vainilla, chocolate o fresa.',
+    description: 'Sabores clásicos favoritos, como vainilla, chocolate o fresa. Solo por encargo.',
     price: 3.00,
     image: iceCreamProducts,
     category: 'helados'
@@ -24,7 +24,7 @@ export const products: Product[] = [
   {
     id: '3',
     name: '1/2 litro de Sabores Premium',
-    description: 'Medio litro de nuestros sabores premium favoritos, como...',
+    description: 'Sabores premium favoritos, como... Solo por encargo.',
     price: 3.50,
     image: iceCreamProducts,
     category: 'helados'
@@ -32,7 +32,7 @@ export const products: Product[] = [
   {
     id: '4',
     name: '2 litros de Napolitano',
-    description: 'Clásico helado napolitano en presentación de 2 litros, con capas de vainilla, chocolate y fresa.',
+    description: 'Clásico helado napolitano con capas de vainilla, chocolate y fresa. Solo por encargo.',
     price: 9.5,
     image: iceCreamProducts,
     category: 'helados'
