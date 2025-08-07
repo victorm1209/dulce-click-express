@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
 import ProductCard from '@/components/ProductCard';
 import CartDrawer from '@/components/CartDrawer';
-import BankingInfo from '@/components/BankingInfo';
 import Footer from '@/components/Footer';
 import { Product, CartItem } from '@/types/Product';
 import { products } from '@/data/products';
@@ -48,6 +47,7 @@ const Index = () => {
     toast({
       title: "¡Producto agregado!",
       description: `${product.name} se agregó a tu carrito`,
+      duration: 2000,
     });
   };
 
@@ -162,7 +162,6 @@ const Index = () => {
         </div>
       </section>
 
-      <BankingInfo />
       <Footer />
 
       <CartDrawer

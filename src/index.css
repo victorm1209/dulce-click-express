@@ -8,45 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Sweet Shop Theme - Vibrant and Modern */
-    --background: 340 35% 98%;
-    --foreground: 340 10% 15%;
+    /* Neutral Professional Theme */
+    --background: 220 15% 97%;
+    --foreground: 220 10% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 340 10% 15%;
+    --card-foreground: 220 10% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 340 10% 15%;
+    --popover-foreground: 220 10% 15%;
 
-    --primary: 338 70% 60%;
+    --primary: 220 25% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 200 50% 90%;
-    --secondary-foreground: 340 10% 15%;
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 10% 15%;
 
-    --muted: 340 20% 95%;
-    --muted-foreground: 340 10% 50%;
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 10% 55%;
 
-    --accent: 45 90% 70%;
-    --accent-foreground: 340 10% 15%;
+    --accent: 45 60% 65%;
+    --accent-foreground: 220 10% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 340 20% 90%;
-    --input: 340 20% 95%;
-    --ring: 338 70% 60%;
+    --border: 220 15% 88%;
+    --input: 220 15% 93%;
+    --ring: 220 25% 45%;
 
-    /* Sweet gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(338 70% 60%), hsl(320 60% 70%));
-    --gradient-secondary: linear-gradient(135deg, hsl(200 50% 85%), hsl(180 40% 90%));
-    --gradient-accent: linear-gradient(135deg, hsl(45 90% 70%), hsl(35 80% 75%));
-    --gradient-background: linear-gradient(180deg, hsl(340 35% 98%), hsl(340 25% 96%));
+    /* Neutral gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 25% 45%), hsl(200 20% 55%));
+    --gradient-secondary: linear-gradient(135deg, hsl(220 15% 90%), hsl(210 15% 93%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 60% 65%), hsl(35 50% 70%));
+    --gradient-background: linear-gradient(180deg, hsl(220 15% 97%), hsl(220 10% 95%));
 
     /* Shadows */
-    --shadow-soft: 0 4px 20px -2px hsl(338 70% 60% / 0.1);
-    --shadow-card: 0 8px 30px -4px hsl(338 70% 60% / 0.15);
-    --shadow-floating: 0 20px 40px -8px hsl(338 70% 60% / 0.2);
+    --shadow-soft: 0 4px 20px -2px hsl(220 25% 45% / 0.08);
+    --shadow-card: 0 8px 30px -4px hsl(220 25% 45% / 0.12);
+    --shadow-floating: 0 20px 40px -8px hsl(220 25% 45% / 0.15);
 
     --radius: 0.75rem;
 

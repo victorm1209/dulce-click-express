@@ -128,26 +128,22 @@ const CartDrawer = ({
           </div>
 
           {cartItems.length > 0 && (
-            <div className="border-t border-border pt-4 mt-4">
-              <div className="space-y-3">
-                <div className="flex justify-between items-center text-lg font-semibold">
-                  <span>Total:</span>
-                  <span className="gradient-primary bg-clip-text text-transparent">
-                    {total.toFixed(2)} REF
-                  </span>
-                </div>
-                
-                <Separator />
-                
-                <Button
-                  onClick={handleWhatsAppOrder}
-                  className="w-full gradient-primary border-0 hover:shadow-soft transition-all duration-200 text-lg py-6"
-                  size="lg"
-                >
-                  <MessageCircle className="h-5 w-5 mr-2" />
-                  Realizar Pedido por WhatsApp
-                </Button>
+            <div className="sticky bottom-0 bg-background border-t border-border pt-4 mt-4 space-y-3">
+              <div className="flex justify-between items-center text-lg font-semibold">
+                <span>Total:</span>
+                <span className="gradient-primary bg-clip-text text-transparent">
+                  {total.toFixed(2)} REF
+                </span>
               </div>
+              
+              <Button
+                onClick={handleWhatsAppOrder}
+                className="w-full gradient-primary border-0 hover:shadow-soft transition-all duration-200 text-lg py-6"
+                size="lg"
+              >
+                <MessageCircle className="h-5 w-5 mr-2" />
+                Realizar Pedido por WhatsApp
+              </Button>
             </div>
           )}
         </div>
