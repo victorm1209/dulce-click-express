@@ -18,8 +18,8 @@ const Index = () => {
   const categories = [
     { id: 'todos', name: 'Todos', emoji: '🛒' },
     { id: 'helados', name: 'Helados', emoji: '🍦' },
-    { id: 'snacks', name: 'Snacks', emoji: '🍿' },
-    { id: 'dulces', name: 'Dulces', emoji: '🍭' },
+    // { id: 'snacks', name: 'Snacks', emoji: '🍿' },
+    // { id: 'dulces', name: 'Dulces', emoji: '🍭' },
     { id: 'pasapalos', name: 'Pasapalos', emoji: '🥟' },
   ];
 
@@ -157,7 +157,7 @@ const Index = () => {
             <div className="text-center py-12">
               <div className="text-6xl mb-4">🔍</div>
               <p className="text-muted-foreground">
-                No se encontraron productos en esta categoría
+                PROXIMÁMENTE
               </p>
             </div>
           )}
