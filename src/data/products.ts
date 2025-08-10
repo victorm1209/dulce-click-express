@@ -222,7 +222,7 @@ export const products: Product[] = [
     category: 'helados'
   },
   {
-    id: '4',
+    id: '25',
     name: '2 litros de Napolitano',
     description: 'Clásico helado napolitano con capas de vainilla, chocolate y fresa. Solo por encargo.',
     price: 9.5,
