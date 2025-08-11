@@ -22,7 +22,7 @@ import heladoMantecadoChocolate from '@/assets/18-helado-mantecado-chocolate.png
 import heladoMantecadoNaranja from '@/assets/19-helado-mantecado-naranja.png';
 import heladoClasico from '@/assets/20-helado-clasico.png';
 import heladoCrocante from '@/assets/21-helado-crocante.png';
-import heladoSandwich from '@/assets/FLYERS2.jpg';
+import heladoSandwich from '@/assets/FLYERS2(1).jpg';
 import heladoMedioLitro from '@/assets/23-helado-medio-litro.png';
 import heladoMedioLitroPremium from '@/assets/24-helado-medio-litro-premium.png';
 import heladoMango from '@/assets/10-helado-mango.png';
@@ -31,26 +31,34 @@ import heladoMango from '@/assets/10-helado-mango.png';
 export const products: Product[] = [
   {
     id: '1',
-    name: 'Corneto de Fresa',
-    description: 'Crujiente cono con helado de fresa y cubierta dulce.',
+    name: 'Barquilla de Fresa',
+    description: 'Crujiente barquilla con helado de fresa.',
     price: 1.10,
     image: heladoConoFresa,
     category: 'helados'
   },
   {
     id: '2',
-    name: 'Corneto de Mantecado',
-    description: 'Cono clásico relleno de helado suave de mantecado.',
+    name: 'Barquilla de Mantecado',
+    description: 'Barquilla clásica rellena de helado suave de mantecado.',
     price: 1.10,
     image: heladoConoMantecado,
     category: 'helados'
   },
   {
     id: '3',
-    name: 'Corneto de Chocolate',
-    description: 'Delicioso cono con helado de chocolate cremoso.',
+    name: 'Barquilla de Chocolate',
+    description: 'Deliciosa barquilla con helado de chocolate cremoso.',
     price: 1.10,
     image: heladoConoChocolate,
+    category: 'helados'
+  },
+  {
+    id: '22',
+    name: 'Helado Sandwich',
+    description: 'Helado de mantecado cubierto con dos galletas',
+    price: 1.10,
+    image: heladoSandwich,
     category: 'helados'
   },
   {
