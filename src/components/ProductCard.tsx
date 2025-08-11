@@ -25,9 +25,9 @@ const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
           alt={product.name}
           className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
         />
-        <Badge className={`absolute top-3 left-3 ${categoryColors[product.category]}`}>
+        {/* <Badge className={`absolute top-3 left-3 ${categoryColors[product.category]}`}>
           {product.category.charAt(0).toUpperCase() + product.category.slice(1)}
-        </Badge>
+        </Badge> */}
       </div>
       
       <CardContent className="p-4">
