@@ -41,7 +41,7 @@ const CartDrawer = ({
 
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/584123988854?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/584123988176?text=${encodedMessage}`;
     
     window.open(whatsappUrl, '_blank');
   };
