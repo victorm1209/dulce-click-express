@@ -162,7 +162,7 @@ export const products: Product[] = [
     id: '18',
     name: 'Clásico (1/2 litro)',
     description: 'Mantecado - Chocolate - Fresa - Mantecado/Chocolate - Mantecado/Fresa - Chocolate/Fresa.',
-    price: 3.00,
+    price: 4.00,
     image: heladoMedioLitro,
     category: 'helados'
   },
@@ -170,7 +170,7 @@ export const products: Product[] = [
     id: '19',
     name: 'Premium',
     description: 'Ron con Pasas - Torta Suiza - Mantecado/Chocolate - Mantecado/Fresa Chocolate/Fresa.',
-    price: 3.50,
+    price: 5.00,
     image: heladoMedioLitroPremium,
     category: 'helados'
   },
@@ -178,7 +178,7 @@ export const products: Product[] = [
     id: '20',
     name: 'Napolitano',
     description: 'Mantecado - Chocolate - Fresa.',
-    price: 9.5,
+    price: 10.00,
     image: napolitano,
     category: 'helados'
   },
