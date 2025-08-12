@@ -12,6 +12,7 @@ import heladoSwingChocolate from '@/assets/6swing.jpg';
 import heladoFresaMantecado from '@/assets/13tiniton.jpg';
 import heladoMantecadoChocolate from '@/assets/11tiniton.jpg';
 import heladoMantecadoNaranja from '@/assets/12tiniton.jpg';
+import heladoChocolateFresa from '@/assets/14tiniton.jpg';
 import heladoCrocante from '@/assets/2zoek.jpg';
 import heladoSandwich from '@/assets/1sandwich.jpg';
 import heladoMedioLitro from '@/assets/18clasico.jpg';
@@ -130,7 +131,7 @@ export const products: Product[] = [
     name: 'Tinitón',
     description: 'Tinita de Chocolate y Fresa.',
     price: 1.10,
-    image: heladoFresaMantecado,
+    image: heladoChocolateFresa,
     category: 'helados'
   },
   {
