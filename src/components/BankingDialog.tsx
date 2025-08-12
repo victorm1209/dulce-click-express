@@ -13,14 +13,14 @@ const BankingDialog = () => {
           className="border-primary/20 hover:border-primary/40 hover:bg-primary/5 transition-all duration-200"
         >
           <CreditCard className="h-5 w-5 mr-2" />
-          Info de Pago
+          Pago Móvil
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-lg">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2 text-xl">
             <CreditCard className="h-5 w-5" />
-            Información de Pago
+            Información de Pago Móvil
           </DialogTitle>
         </DialogHeader>
         
