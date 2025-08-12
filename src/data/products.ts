@@ -64,7 +64,7 @@ export const products: Product[] = [
   },
   {
     id: '6',
-    name: 'Swing',
+    name: 'Swing de Mantecado con sirope de Chocolate y Fresa',
     description: 'Tinita de Mantecado con sirope de Chocolate y Fresa, crujiente topping de Maní.',
     price: 1.10,
     image: heladoSwingChocolate,
@@ -72,7 +72,7 @@ export const products: Product[] = [
   },
   {
     id: '7',
-    name: 'Choco Pop',
+    name: 'Choco Pop de Chocolate con sirope de Chocolate',
     description: 'Tinita de Chocolate con sirope de Chocolate.',
     price: 1.10,
     image: heladoChocoPop,
