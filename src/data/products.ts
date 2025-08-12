@@ -40,7 +40,7 @@ export const products: Product[] = [
   },
   {
     id: '3',
-    name: 'Barquilla Clásica',
+    name: 'Barquilla Clásica de Mantecado',
     description: 'Cono de galleta dulce cobertura interna de Mantecado.',
     price: 1.10,
     image: heladoConoMantecado,
@@ -48,7 +48,7 @@ export const products: Product[] = [
   },
   {
     id: '4',
-    name: 'Barquilla Clásica',
+    name: 'Barquilla Clásica de Chocolate',
     description: 'Cono de galleta dulce cobertura interna de Chocolate.',
     price: 1.10,
     image: heladoConoChocolate,
@@ -56,7 +56,7 @@ export const products: Product[] = [
   },
   {
     id: '5',
-    name: 'Barquilla Clásica',
+    name: 'Barquilla Clásica de Fresa',
     description: 'Cono de galleta dulce cobertura interna de Fresa.',
     price: 1.10,
     image: heladoConoFresa,
@@ -80,7 +80,7 @@ export const products: Product[] = [
   },
   {
     id: '8',
-    name: 'Sundae',
+    name: 'Sundae de sirope de Chocolate',
     description: 'Tinita de Mantecado con sirope de Chocolate.',
     price: 1.10,
     image: heladoSiropeChocolate,
@@ -88,7 +88,7 @@ export const products: Product[] = [
   },
   {
     id: '9',
-    name: 'Sundae',
+    name: 'Sundae de sirope de Fresa',
     description: 'Tinita de Mantecado con sirope de Fresa.',
     price: 1.10,
     image: heladoSiropeFresa,
@@ -96,7 +96,7 @@ export const products: Product[] = [
   },
   {
     id: '10',
-    name: 'Sundae',
+    name: 'Sundae de sirope de Naranja',
     description: 'Tinita de Mantecado con sirope de Naranja.',
     price: 1.10,
     image: heladoSiropeNaranja,
@@ -104,7 +104,7 @@ export const products: Product[] = [
   },
   {
     id: '11',
-    name: 'Tinitón',
+    name: 'Tinitón de Mantecado y Chocolate',
     description: 'Tinita de Mantecado y Chocolate.',
     price: 1.10,
     image: heladoMantecadoChocolate,
@@ -112,7 +112,7 @@ export const products: Product[] = [
   },
   {
     id: '12',
-    name: 'Tinitón',
+    name: 'Tinitón de Mantecado y Naranja',
     description: 'Tinita de Mantecado y Naranja.',
     price: 1.10,
     image: heladoMantecadoNaranja,
@@ -120,7 +120,7 @@ export const products: Product[] = [
   },
   {
     id: '13',
-    name: 'Tinitón',
+    name: 'Tinitón de Mantecado y Fresa',
     description: 'Tinita de Mantecado y Fresa.',
     price: 1.10,
     image: heladoFresaMantecado,
@@ -128,7 +128,7 @@ export const products: Product[] = [
   },
   {
     id: '14',
-    name: 'Tinitón',
+    name: 'Tinitón de Chocolate y Fresa',
     description: 'Tinita de Chocolate y Fresa.',
     price: 1.10,
     image: heladoChocolateFresa,
@@ -136,7 +136,7 @@ export const products: Product[] = [
   },
   {
     id: '15',
-    name: 'Sorbetes',
+    name: 'Sorbetes de Mango',
     description: 'Tinita de Mango.',
     price: 1.10,
     image: heladoMango,
@@ -144,7 +144,7 @@ export const products: Product[] = [
   },
   {
     id: '16',
-    name: 'Sorbetes',
+    name: 'Sorbetes de Parchita',
     description: 'Tinita de Parchita.',
     price: 1.10,
     image: heladoParchita,
@@ -152,7 +152,7 @@ export const products: Product[] = [
   },
   {
     id: '17',
-    name: 'Sorbetes',
+    name: 'Sorbetes de Guanábana',
     description: 'Tinita de Guanábana.',
     price: 1.10,
     image: heladoGuanabana,
